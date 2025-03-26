@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.header{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.header-title{
+    padding: 5px;
+}
+
+
+.header-conten__one,.header-conten__two,.header-conten__three{
+    display:inline-block;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: white;
+    color:orange;
+    
+}
+
+.container{
+    text-align: center;
+}
+
+.container-img__one,.container-img__two,.container-img__three,.container-img__four{
+
+    display: inline-block;
+    background-color: orange;
+    width: 185px;
+    height: 320px;
+    text-align: center;
+    vertical-align: top;
+
+}
+
+.image-one,.image-two,.image-three,.image-four {
+    padding: 5px;
+    width: 170px;
+    height: 200px;
+    
+}
+
+.container-para__one,.container-para__two,.container-para__three,.container-para__four{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ordernow-one,.ordernow-two,.ordernow-three,.ordernow-four
+{
+    background-color:black;
+    margin: 5px;
+    height: 20px;
+    width: 90px;
+    color: orange;
+    margin-left: 50px;
+    border-radius: 5px;
+    
+}
+  .ordernow-one:hover,.ordernow-two:hover,.ordernow-three:hover,.ordernow-four:hover{
+    background-color:white;
+}
+
+
+
+.contact-form{
+    margin-top: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.table{
+    text-align: center;
+margin-left: 500px;}
+
+.table-td__one,.table-td__two,.table-td__three{
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.input-text__one,.input-text__two,.input-text__three{
+    color: orange;
+}
+::placeholder {
+    color:orange;
+    opacity: 1;
+}
+    .button{
+        background-color: orange;
+        color: black;
+        font-weight: 700;
+        width: 100px;
+        padding: 5px;
+    }
+
+    .button:hover{
+background-color: white;
+color: orange;        font-weight: 700;
+
+    }
